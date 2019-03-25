@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receiver Mobile Number"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/ET_settingPhonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="01XXXXXXXXX"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btn_settingSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pressed"
+            android:text="Save"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="20dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
